@@ -728,7 +728,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_1 = new lib.CTA();
 	this.instance_1.setTransform(215.75,230.05,0.588,0.588,0,0,0,0.1,0.1);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(71).to({scaleX:0.7644,scaleY:0.7644,x:215.8,y:230.1},3).to({scaleX:0.588,scaleY:0.588,x:215.75,y:230.05},5).wait(40));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(95).to({scaleX:0.7644,scaleY:0.7644,x:215.8,y:230.1},3).to({scaleX:0.588,scaleY:0.588,x:215.75,y:230.05},5).wait(16));
 
 	// HEAD1
 	this.instance_2 = new lib.HEAD1();
@@ -742,14 +742,14 @@ if (reversed == null) { reversed = false; }
 	this.instance_3.setTransform(734.2,469.4,1,1,0,0,0,1034.2,469.4);
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(23).to({_off:false},0).to({x:1034.2},14,cjs.Ease.quintOut).wait(82));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(37).to({_off:false},0).to({x:1034.2},14,cjs.Ease.quintOut).wait(68));
 
 	// SUB
 	this.instance_4 = new lib.SUB();
 	this.instance_4.setTransform(734.2,469.4,1,1,0,0,0,1034.2,469.4);
 	this.instance_4._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(51).to({_off:false},0).to({x:1034.2},14,cjs.Ease.quintOut).wait(54));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(65).to({_off:false},0).to({x:1034.2},14,cjs.Ease.quintOut).wait(40));
 
 	// BKGD
 	this.instance_5 = new lib.mtnbkgd();
