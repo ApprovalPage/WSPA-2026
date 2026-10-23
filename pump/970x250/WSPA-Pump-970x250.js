@@ -27,7 +27,7 @@ lib.ssMetadata = [
 
 
 
-(lib.BKGD = function() {
+(lib.pumpbkgd = function() {
 	this.initialize(ss["WSPA_Pump_970x250_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
@@ -673,7 +673,7 @@ if (reversed == null) { reversed = false; }
 	this.instance = new lib.CTA();
 	this.instance.setTransform(312.4,223.6);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(71).to({scaleX:1.3,scaleY:1.3},3).to({scaleX:1,scaleY:1},5).wait(40));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(95).to({scaleX:1.3,scaleY:1.3},3).to({scaleX:1,scaleY:1},5).wait(16));
 
 	// HEAD1
 	this.instance_1 = new lib.HEAD1();
@@ -689,7 +689,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_2.alpha = 0;
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(23).to({_off:false},0).to({x:1034.2,alpha:1},14,cjs.Ease.quintOut).wait(82));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(37).to({_off:false},0).to({x:1034.2,alpha:1},14,cjs.Ease.quintOut).wait(68));
 
 	// SUB
 	this.instance_3 = new lib.SUB();
@@ -697,7 +697,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_3.alpha = 0;
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(51).to({_off:false},0).to({x:209.6,alpha:1},14,cjs.Ease.quintOut).wait(54));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(65).to({_off:false},0).to({x:209.6,alpha:1},14,cjs.Ease.quintOut).wait(40));
 
 	// LOGO
 	this.instance_4 = new lib.LOGO();
@@ -706,7 +706,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(119));
 
 	// BKGD
-	this.instance_5 = new lib.BKGD();
+	this.instance_5 = new lib.pumpbkgd();
 	this.instance_5.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(119));
